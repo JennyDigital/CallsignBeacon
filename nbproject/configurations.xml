@@ -78,6 +78,8 @@
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
       <item path="IRQ_Handler.c" ex="true" overriding="false">
+        <ccscompiler>
+        </ccscompiler>
       </item>
       <Simulator>
         <property key="codecoverage.enabled" value="Disable"/>
@@ -1043,8 +1045,12 @@
         <property key="preprocessor-macros-windows" value=""/>
       </ccscompiler>
       <item path="hardware.c" ex="true" overriding="false">
+        <ccscompiler>
+        </ccscompiler>
       </item>
       <item path="morse.c" ex="true" overriding="false">
+        <ccscompiler>
+        </ccscompiler>
       </item>
     </conf>
   </confs>
