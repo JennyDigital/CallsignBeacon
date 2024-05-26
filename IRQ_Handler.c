@@ -8,7 +8,7 @@ volatile short int beeping=0;
 // ======================
 
 #int_timer0
-void ISR_Ticker( void )
+static void ISR_Ticker( void )
 {
   static short spk_phase = 0;
 

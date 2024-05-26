@@ -32,22 +32,15 @@
 extern volatile long long int systick;
 extern volatile long long int ident_period;
 
-int result;
 
-void SendIdent( char * msg )
-{
-
-}
-
-
-int main( void )
+void main( void )
 {
   ServiceInterruptInit();
 
   LED_PWR_On( 1 );
 
 
-  while( 1 )
+  while( TRUE )
   {
     LED_Beat( 1 );
 
